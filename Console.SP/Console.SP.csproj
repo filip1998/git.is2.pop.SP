@@ -8,7 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Model.SP\Model.SP.csproj" />
+    <ProjectReference Include="..\RestClient.SP\RestClient.SP.csproj" />
+    <ProjectReference Include="..\SPDbContext\SPDataContext.csproj" />
   </ItemGroup>
 
 </Project>
